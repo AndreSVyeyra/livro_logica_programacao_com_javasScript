@@ -1,0 +1,9 @@
+<meta charset = "utf-8">
+<script>
+    const preco = Number(prompt("Preço: ")) //recebe valor
+
+    valorAVista = preco - (preco * 0.10) // calcula valor avista
+    valorParcelado = preco / 3
+
+    alert(`Preço R$: ${preco.toFixed(2)}  \n A vista R$: ${valorAVista.toFixed(2)} \n Ou 3x de R$: ${valorParcelado.toFixed(2)}`)
+</script>
